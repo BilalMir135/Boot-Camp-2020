@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-image: linear-gradient(
+    to top,
+    #1e3c72 0%,
+    #1e3c72 1%,
+    #2a5298 100%
+  );
+}
+
+.night {
+  height: 80vh;
+  width: 60vw;
+  margin: 5rem auto;
+  background-image: url(./assets/Img_1.png);
+  background-size: cover;
+  box-shadow: 1px 2px 60px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  position: relative;
+}
+
+.surface {
+  height: 140px;
+  width: 500%;
+  background: url('./assets/Img_02.png');
+  display: block;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  background-repeat: repeat-x;
+}
+
+.car {
+  position: absolute;
+  bottom: 8%;
+  left: 24%;
+}
