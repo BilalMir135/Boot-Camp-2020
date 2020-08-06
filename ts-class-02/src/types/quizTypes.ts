@@ -6,3 +6,15 @@ export type Quiz = {
   question: string;
   type: string;
 };
+
+export type Question = {
+  question: string;
+  answer: string;
+  options: string[];
+};
+
+export type QuestionCardType = {
+  question: string;
+  options: string[];
+  callback: (e: React.FormEvent<EventTarget>) => void;
+};
