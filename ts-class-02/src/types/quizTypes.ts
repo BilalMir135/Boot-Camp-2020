@@ -16,5 +16,5 @@ export type Question = {
 export type QuestionCardType = {
   question: string;
   options: string[];
-  callback: (e: React.FormEvent<EventTarget>) => void;
+  callback: (e: React.FormEvent<EventTarget>, ans: string) => void;
 };
