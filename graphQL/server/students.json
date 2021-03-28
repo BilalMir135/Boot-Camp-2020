@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Anas Bin Sohail",
+    "email": "abs@gmail.com",
+    "age": 21
+  },
+  {
+    "id": 2,
+    "name": "Bilal Mir",
+    "email": "bilal@gmail.com",
+    "age": 22
+  },
+  {
+    "id": 3,
+    "name": "Khizram Saeed Khan",
+    "email": "khizram@gmail.com",
+    "age": 21
+  }
+]
